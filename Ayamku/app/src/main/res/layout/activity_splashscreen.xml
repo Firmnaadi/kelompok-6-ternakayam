@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3E0B5"
+    android:gravity="center"
+    tools:context=".splashscreen">
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="280dp"
+        android:id="@+id/logo"
+        android:src="@drawable/ayam"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/logo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:text="Selamat Datang!"
+        android:textSize="28sp"
+        android:textColor="#FFA500"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo1"
+        android:layout_centerHorizontal="true"
+        android:text="KUB"
+        android:textSize="74sp"
+        android:textColor="#FFA500"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/baseline_cloud_24"
+        android:alpha="0.1" />
+
+</RelativeLayout>

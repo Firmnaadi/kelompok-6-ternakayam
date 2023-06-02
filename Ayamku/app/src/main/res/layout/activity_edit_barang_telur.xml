@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F3E0B5"
+    tools:context=".EditBarangTelur">
+
+    <TextView
+        android:id="@+id/idTelurTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID Telur"
+        android:textSize="18sp"
+        android:textColor="#FFA500" />
+
+    <TextView
+        android:id="@+id/gradeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grade"
+        android:textSize="18sp"
+        android:textColor="#FFA500" />
+
+    <EditText
+        android:id="@+id/beratTelurEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Berat Telur"
+        android:backgroundTint="#FFA500"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:backgroundTint="#EEC373"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

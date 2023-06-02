@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="280dp"
+        android:id="@+id/logo"
+        android:src="@drawable/ayam"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="35dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail/Username"
+            android:textColor="#FFA500"
+            android:textStyle="bold"
+            android:layout_marginStart="5dp"/>
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/txtUserTeknisi"
+            android:padding="8dp"
+            android:drawablePadding="8dp"
+            android:textColorHighlight="@android:color/darker_gray"
+            android:hint="Masukkan E-mail/Username"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="#FFA500"
+            android:textStyle="bold"
+            android:layout_marginStart="5dp"/>
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/txtPasswordTeknisi"
+            android:padding="8dp"
+            android:drawablePadding="8dp"
+            android:hint="Masukkan Password"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/btnSignInTeknisi"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:background="#FFA500"
+            android:onClick="Login" />
+
+    </LinearLayout>
+
+</RelativeLayout>

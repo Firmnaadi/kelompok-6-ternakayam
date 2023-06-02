@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ayamku"
+        tools:targetApi="31">
+        <activity
+            android:name=".ayam_pendapatan"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PendaanAyamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PendaanKebAyamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PendaanTelurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeAyam"
+            android:exported="false" />
+        <activity
+            android:name=".HomeTelur"
+            android:exported="false" />
+        <activity
+            android:name=".EditBarangAyam"
+            android:exported="false" />
+        <activity
+            android:name=".EditBarangkebutuhan"
+            android:exported="false" />
+        <activity
+            android:name=".BarangTelur"
+            android:exported="false" />
+        <activity
+            android:name=".PendataanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditBarangTelur"
+            android:exported="false" />
+        <activity
+            android:name=".databarangactivity"
+            android:exported="false" />
+        <activity
+            android:name=".barangkebutuhan"
+            android:exported="false" />
+        <activity
+            android:name=".JadwalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BarangAyam"
+            android:exported="false" />
+        <activity
+            android:name=".databarangayamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
